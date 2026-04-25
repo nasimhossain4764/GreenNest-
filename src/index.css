@@ -1,8 +1,2 @@
 @import "tailwindcss";
 @import "daisyui/daisyui.css";
-
-@layer base {
-  body {
-    @apply antialiased text-gray-800 bg-base-100;
-  }
-}
