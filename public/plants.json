@@ -1,0 +1,74 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light. Perfect for beginners and busy individuals. Its upright, sword-like leaves are striking and elegant.",
+    "image": "https://images.unsplash.com/photo-1593482892290-f54927ae1b7e?w=800&q=80",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Monstera Deliciosa",
+    "category": "Statement Plant",
+    "price": 35,
+    "rating": 4.9,
+    "availableStock": 5,
+    "careLevel": "Medium",
+    "description": "Known for its stunning split leaves, the Monstera is a fast-growing tropical plant that brings a dramatic, jungle vibe to any room.",
+    "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=800&q=80",
+    "providerName": "Leaf & Clay Co."
+  },
+  {
+    "plantId": 3,
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 22,
+    "rating": 4.7,
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "description": "With its waxy, smooth leaves that reflect sunlight, the ZZ Plant is practically indestructible and requires very little water.",
+    "image": "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?w=800&q=80",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 25,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "Features beautiful white blooms and dark green foliage. The Peace Lily is an excellent air purifier and droops to tell you when it needs water.",
+    "image": "https://images.unsplash.com/photo-1593696954577-ab3d39317b97?w=800&q=80",
+    "providerName": "GreenNest Originals"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Pothos",
+    "category": "Trailing",
+    "price": 15,
+    "rating": 4.8,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "A classic trailing plant with heart-shaped leaves. It grows quickly and looks beautiful cascading from shelves or hanging planters.",
+    "image": "https://images.unsplash.com/photo-1646667687331-e06974a7efa4?w=800&q=80",
+    "providerName": "Leaf & Clay Co."
+  },
+  {
+    "plantId": 6,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Statement Plant",
+    "price": 45,
+    "rating": 4.5,
+    "availableStock": 3,
+    "careLevel": "Hard",
+    "description": "Famous for its large, violin-shaped leaves. It requires a bit more attention and bright, indirect light, but makes a stunning focal point.",
+    "image": "https://images.unsplash.com/photo-1611145367651-6303b47eeb07?w=800&q=80",
+    "providerName": "GreenNest Originals"
+  }
+]
