@@ -69,6 +69,32 @@ const Home = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className="w-full h-full bg-cover bg-center flex items-center justify-center text-center px-4"
+              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1416879598555-081cb9652a22?w=1600&q=80')" }}
+            >
+              <div className="bg-black/40 w-full h-full absolute top-0 left-0"></div>
+              <div className="relative z-10 text-white max-w-3xl">
+                <h1 className="text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg">A Greener Workspace</h1>
+                <p className="text-xl md:text-2xl mb-8 drop-shadow-md">Boost your productivity and focus with beautiful desktop companions.</p>
+                <Link to="/plants" className="btn btn-primary btn-lg border-none">Explore Desk Plants</Link>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className="w-full h-full bg-cover bg-center flex items-center justify-center text-center px-4"
+              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1604762512615-d912cb92a7f0?w=1600&q=80')" }}
+            >
+              <div className="bg-black/40 w-full h-full absolute top-0 left-0"></div>
+              <div className="relative z-10 text-white max-w-3xl">
+                <h1 className="text-5xl md:text-7xl font-bold mb-4 drop-shadow-lg">Rare & Exotic Finds</h1>
+                <p className="text-xl md:text-2xl mb-8 drop-shadow-md">Add a touch of the extraordinary to your plant collection.</p>
+                <Link to="/plants" className="btn btn-primary btn-lg border-none">View Rare Plants</Link>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </section>
 
