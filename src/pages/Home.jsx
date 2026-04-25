@@ -33,8 +33,10 @@ const Home = () => {
       {/* Hero Slider Section */}
       <section className="h-[60vh] md:h-[80vh] w-full">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={0}
           effect={"fade"}
+          fadeEffect={{ crossFade: true }}
+          speed={1500}
           navigation={true}
           pagination={{ clickable: true }}
           autoplay={{ delay: 5000, disableOnInteraction: false }}
