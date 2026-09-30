@@ -9,46 +9,51 @@ import Profile from "../pages/Profile";
 import NotFound from "../pages/NotFound";
 import PrivateRoute from "./PrivateRoute";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      errorElement: <NotFound />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/plants",
+          element: <Plants />,
+        },
+        {
+          path: "/plant/:id",
+          element: (
+            <PrivateRoute>
+              <PlantDetails />
+            </PrivateRoute>
+          ),
+        },
+        {
+          path: "/profile",
+          element: (
+            <PrivateRoute>
+              <Profile />
+            </PrivateRoute>
+          ),
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/signup",
+          element: <Signup />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    errorElement: <NotFound />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/plants",
-        element: <Plants />,
-      },
-      {
-        path: "/plant/:id",
-        element: (
-          <PrivateRoute>
-            <PlantDetails />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "/profile",
-        element: (
-          <PrivateRoute>
-            <Profile />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "/login",
-        element: <Login />,
-      },
-      {
-        path: "/signup",
-        element: <Signup />,
-      },
-    ],
-  },
-]);
+    basename: "/GreenNest-",
+  }
+);
 
 export default router;
